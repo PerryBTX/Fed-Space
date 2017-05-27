@@ -1,0 +1,18 @@
+{
+  "name": "fed-space",
+  "version": "0.0.0",
+  "description": "Got gif.",
+  "main": "app.js",
+  "repository": "",
+  "author": "Mark Dell <madelk@gmail.com>",
+  "dependencies": {
+    "discord.io": "^2.2.4"
+  },
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "cache"
+  ]
+}
