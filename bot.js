@@ -61,7 +61,7 @@ function HandleBotCommand(payload) {
 	if (payload.moduleName == "fswiki") {
 		bot.sendMessage({
 			to: payload.channelID,
-			message: "http://wiki.fed-space.com/index.php?search=" + payload.command
+			message: "http://wiki.fed-space.com/index.php?search=" + encodeURIComponent(payload.command)
 		});
 	}
 }
